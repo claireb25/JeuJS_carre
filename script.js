@@ -84,7 +84,7 @@ document.addEventListener('keyup', function (upAndDown){
     var timeup;
     if(upAndDown.keyCode == 38) {
         mouvement();
-        (mouvementbas,500);
+        setTimeout (mouvementbas,500);
 }});
 
 function mouvement(){
