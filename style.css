@@ -1,0 +1,37 @@
+#bigger{
+    font-size: 15px;
+}
+
+
+.exercice2{
+    display: flex;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+   
+}
+
+.style-button{
+    background-color: cornflowerblue;
+    border: none;
+    margin: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.exercice2{
+    position: relative;
+}
+
+#carre{
+    width:100px;
+    height:100px;
+    background-color: cornflowerblue;
+    position:absolute;
+    right: 900px;
+    top:0px;
+}
